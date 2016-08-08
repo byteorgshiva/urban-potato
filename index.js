@@ -1,4 +1,4 @@
-urban-potato = function(value) {
+var urbanpotato = function(value) {
   var Nothing = {
     bind: function(fn) {
       return this; 
@@ -50,4 +50,4 @@ var isNothing = function() {
 if (!Array.prototype.isNothing)
    Object.defineProperty(Array.prototype, 'isNothing', { value: isNothing });
 
-module.exports = urban-potato;
+module.exports = urbanpotato;
