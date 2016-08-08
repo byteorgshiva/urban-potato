@@ -17,7 +17,7 @@ var urbanpotato = function(value) {
   var Something = function(value) {
     return {
       bind: function(fn) {
-        return Maybe(fn.call(this, value));
+        return urbanpotato(fn.call(this, value));
       },
       isNothing: function() { 
         return false; 
