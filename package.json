@@ -1,0 +1,19 @@
+{
+  "name": "urban-potato",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byteorgshiva/urban-potato.git"
+  },
+  "author": "Siva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byteorgshiva/urban-potato/issues"
+  },
+  "homepage": "https://github.com/byteorgshiva/urban-potato#readme"
+}
